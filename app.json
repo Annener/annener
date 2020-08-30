@@ -1,0 +1,8 @@
+{
+    "name": "Test-deploy nginx",
+    "description": "start nginx deploy",
+    "repository": "https://github.com/Annener/annener",
+    "scripts": {
+        "postdeploy": "docker build -t test ."
+    }
+}
