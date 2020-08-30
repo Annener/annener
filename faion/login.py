@@ -1,3 +1,0 @@
-import MySQLdb
-import string
-
